@@ -13,7 +13,7 @@ class swap
      int temp=a;
      a=b;
      b=temp;
-     System.out.println("After swapping\n" + "a="+a+"b="+b);
+     System.out.println("After swapping\n" + "a="+a+ " " + "b="+b);
      System.out.println("Without using third variable");
      System.out.println("Enter the value of x and y");
      x=sc.nextInt();
@@ -21,7 +21,7 @@ class swap
     x=x+y;
     y=x-y;
     x=x-y;
-    System.out.println("After swapping\n" + "x="+x+"y="+y);
+    System.out.println("After swapping\n" + "x="+x+ "  " + "y="+y);
 
      }
 
