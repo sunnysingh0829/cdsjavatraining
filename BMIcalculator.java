@@ -11,7 +11,7 @@ public class BMIcalculator
         System.out.println("Enter Height in Meters(m):");
         double ht= sc.nextDouble();
 
-        double bmi= wt/ht*ht;
+        double bmi= wt/(ht*ht);
 
         System.out.println("Your BMI is :"+bmi);
 
@@ -19,11 +19,11 @@ public class BMIcalculator
         {
             System.out.println("You are Underweight.");
         }
-        else if (bmi<24.9)
+        else if (bmi>=18.5 && bmi<24.9)
         {
             System.out.println("You Have normal Weight.");
         }
-        else if (bmi<29.9)
+        else if (bmi>=25 && bmi<29.9)
         {
             System.out.println("You are Overweight.");
         }
