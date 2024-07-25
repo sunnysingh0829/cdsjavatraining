@@ -31,5 +31,6 @@ public class BMIcalculator
         {
             System.out.println("You are Obese.");
         }
+        
     }
 }
